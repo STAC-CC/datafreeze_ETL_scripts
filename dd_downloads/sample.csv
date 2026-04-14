@@ -1,0 +1,4 @@
+form_name,packet,question,var_name,missingness,conformity,response_labels,data_type,branching_logic,notes
+my_form,IVP,What is the participant's age?,age,,Required,,Numeric,,
+my_form,IVP,Sex of participant,sex,,Required,"0=Male, 1=Female",Numeric,,
+my_form,IVP,Smoking status,smoking_status,,Optional,"1=Non-smoker, 2=Former smoker, 3=Current smoker",Numeric,,

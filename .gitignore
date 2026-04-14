@@ -1,0 +1,36 @@
+# ── Data files ────────────────────────────────────────────────────────────────
+# Ignore all data inputs and outputs — keep only sample.csv in each folder
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.json
+*.parquet
+*.feather
+*.db
+*.sqlite
+
+# Keep sample files so folder structure and column reference are preserved
+!sample.csv
+!**/sample.csv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
