@@ -1,0 +1,4 @@
+packet,variable_name,description,units,key_description,response_labels,data_type
+IVP,age,What is the participant's age?,,Required,,Numeric
+IVP,sex,Sex of participant,,Required,"0=Male, 1=Female",Numeric
+IVP,smoking_status,Smoking status,,Optional,"1=Non-smoker, 2=Former smoker, 3=Current smoker",Numeric

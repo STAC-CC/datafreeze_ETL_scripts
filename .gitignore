@@ -37,3 +37,8 @@ Thumbs.db
 *.doc
 *.docx
 *.pdf
+
+# ── SOP ───────────────────────────────────────────────────────────────────────
+# No PII — make all SOP documents publicly available
+!data_freeze_SOP/
+!data_freeze_SOP/**
